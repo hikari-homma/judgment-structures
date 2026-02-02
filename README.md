@@ -1,5 +1,8 @@
 # Judgment Templates & Structural Experiments
 
+This repository is not a collection of essays.
+It is a set of judgment templates designed to fix human meaning-making and decision processes into reusable structures.
+
 This repository contains experiments in translating  
 **human judgment, meaning-making, and decision structures**  
 into explicit, reusable, and programmable forms.
@@ -30,7 +33,8 @@ as variations of the same activity:
 
 ## Core idea
 
-Humans do not act directly on reality.
+Human action is not driven by reality itself,
+but by internalized meaning structures.
 
 They act on:
 - meanings
