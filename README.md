@@ -56,97 +56,90 @@ Horizontal axis indicates whether judgment is resolved or unresolved.
 
 Judgment Types (V1)
 
-State
+### **A｜Reference Missing**
+
+**State**  
 Judgment cannot be formed because no reference, comparison axis, or evaluation criteria exist.
 
-Description
-The request may sound abstract, but the core issue is not vagueness itself.
+**Description**  
+The request may sound abstract, but the core issue is not vagueness itself.  
 Without any reference point, judgment has nothing to anchor to and stalls completely.
 
-UI Rescue
-Yes — UI can surface missing references and prompt comparison axes.
+**UI Rescue**  
+**Yes** — UI can surface missing references and prompt comparison axes.
 
-⸻
+### **B｜Reference-Resolved**
 
-B｜Reference-Resolved
-
-State
+**State**  
 Judgment can be formed because concrete references or examples are provided.
 
-Description
-Although the request itself may still be abstract, the presence of references activates judgment.
+**Description**  
+Although the request itself may still be abstract, the presence of references activates judgment.  
 Comparison becomes possible, reducing cognitive load and enabling decision-making.
 
-UI Rescue
-Yes — UI can organize references and support structured comparison.
+**UI Rescue**  
+**Yes** — UI can organize references and support structured comparison.
 
-⸻
+### **C｜Immediate Comprehension**
 
-C｜Immediate Comprehension
-
-State
+**State**  
 Judgment is formed immediately from the input alone.
 
-Description
-The request contains sufficient clarity and context.
+**Description**  
+The request contains sufficient clarity and context.  
 No additional references, clarification, or comparison are required.
 
-UI Rescue
-No (Not required) — Judgment is already stable.
+**UI Rescue**  
+**No (Not required)** — Judgment is already stable.
 
-⸻
+### **D｜Structural Mismatch**
 
-D｜Structural Mismatch
-
-State
+**State**  
 Judgment cannot be formed due to structural constraints rather than linguistic ambiguity.
 
-Description
-The intent is understandable, but constraints such as budget, time, or the nature of the task itself prevent judgment from being actionable.
+**Description**  
+The intent is understandable, but constraints such as budget, time, or the nature of the task itself  
+prevent judgment from being actionable.
 
-UI Rescue
-No — Constraints exist outside the UI’s scope.
+**UI Rescue**  
+**No** — Constraints exist outside the UI’s scope.
 
-⸻
+### **E｜Authority Override**
 
-E｜Authority Override
-
-State
+**State**  
 Judgment is formed but overridden by authority or power relationships.
 
-Description
-Even when a better judgment is possible, hierarchical pressure or explicit commands force compliance, suppressing independent evaluation.
+**Description**  
+Even when a better judgment is possible, hierarchical pressure or explicit commands  
+force compliance, suppressing independent evaluation.
 
-UI Rescue
-No — This is a power and governance issue.
+**UI Rescue**  
+**No** — This is a power and governance issue.
 
-⸻
+### **F｜Explanation Avoidance**
 
-F｜Explanation Avoidance
-
-State
+**State**  
 Judgment exists but its reasoning is intentionally withheld.
 
-Description
-Explanation is avoided because it is expected to fail, cause conflict, or be emotionally costly.
+**Description**  
+Explanation is avoided because it is expected to fail, cause conflict, or be emotionally costly.  
 The decision proceeds without shared understanding.
 
-UI Rescue
-No — Rooted in trust, emotion, or relational breakdown.
+**UI Rescue**  
+**No** — Rooted in trust, emotion, or relational breakdown.
 
-⸻
+### **G｜Surface Compliance**
 
-G｜Surface Compliance
+**State**  
+Judgment appears resolved but is only superficially addressed (*pseudo-resolved*).
 
-State
-Judgment appears resolved but is only superficially addressed (pseudo-resolved).
-
-Description
-The actor avoids taking ownership of judgment and responds in a way that merely passes the situation.
+**Description**  
+The actor avoids taking ownership of judgment and responds in a way that merely passes the situation.  
 The underlying decision remains unexamined.
 
-UI Rescue
-Partial — UI can help clarify roles and responsibility, but cannot enforce ownership.
+**UI Rescue**  
+**Partial** — UI can help clarify roles and responsibility, but cannot enforce ownership.
+
 
 ## What this is not
 
