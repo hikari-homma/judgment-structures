@@ -54,8 +54,6 @@ Horizontal axis indicates whether judgment is resolved or unresolved.
 | F | Explanation Avoidance | Judgment exists but explanation is avoided or suppressed | No |
 | G | Surface Compliance | Superficial compliance without owning judgment | Partial |
 
-Judgment Types (V1)
-
 ### **A｜Reference Missing**
 
 **State**  
