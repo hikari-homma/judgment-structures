@@ -50,8 +50,9 @@ These fall outside the scope of this UI and are intentionally not “solved” h
 
 ## Current status
 
-- Prototype v0.3
+- Judgment Structure — V1 (Prototype)
 - Observational / exploratory
+- Structural model of judgment types established
 - UI sketches and structure in progress
 
 ## Project Materials
