@@ -12,6 +12,18 @@ Experimental UI for decision visibility.
 <img src="assets/judgment-structure-v1.png" width="720">
 </p>
 
+## Judgment Types (v1)
+
+| Type | Name | State | UI Rescue |
+|------|------|-------|-----------|
+| A | Reference Missing | No reference or comparison axis; judgment cannot be formed | Yes |
+| B | Reference-Resolved | Judgment is possible with references, but comparison needs structuring | Yes |
+| C | Immediate Comprehension | Judgment is formed directly from the input | Not required |
+| D | Structural Mismatch | Structural constraints prevent judgment from being formed | No |
+| E | Authority Override | Judgment is overridden by authority or hierarchy | No |
+| F | Explanation Avoidance | Judgment exists but explanation is avoided or suppressed | No |
+| G | Surface Compliance | Superficial compliance without owning judgment | Partial |
+
 This is a long-term personal research project.
 
 Judgment Structure is an experimental UI that visualizes **when judgment becomes possible, impossible, or silently deferred**—rather than attempting to “fix” ambiguous requests.
