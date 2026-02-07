@@ -33,6 +33,7 @@ On the other hand, problems caused by external constraints—such as **budget, 
 
 These fall outside the scope of this UI and are intentionally not “solved” here.
 
+
 ### **An Experimental UI for Visualizing Where Judgment Breaks**
 
 <p align="center">
