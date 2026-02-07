@@ -1,94 +1,62 @@
-# Judgment Templates & Structural Experiments
+# Judgment Structure
 
-This repository is not a collection of essays.
-It is a set of judgment templates designed to fix human meaning-making and decision processes into reusable structures.
-
-This repository contains experiments in translating  
-**human judgment, meaning-making, and decision structures**  
-into explicit, reusable, and programmable forms.
-
-The goal is not optimization or automation,
-but **making implicit cognitive structures explicit**.
-
----
+Experimental UI for decision visibility.
 
 ## What this is
 
-- A collection of **judgment templates**
-- Structural thinking expressed in:
-  - natural language
-  - diagrams (later)
-  - pseudocode / code (later)
-- An attempt to fix **decision logic**, not outcomes
+## **Judgment Structure**
 
-This work treats:
-- writing
-- visual direction
-- and programming
+### **An Experimental UI for Visualizing Where Judgment Breaks**
 
-as variations of the same activity:
-**designing cognitive transitions**.
+<p align="center">
+<img src="assets/judgment-structure-v1.png" width="720">
+</p>
 
----
+This is a long-term personal research project.
 
-## Core idea
+Judgment Structure is an experimental UI that visualizes **when judgment becomes possible, impossible, or silently deferred**—rather than attempting to “fix” ambiguous requests.
 
-Human action is not driven by reality itself,
-but by internalized meaning structures.
+Its purpose is to observe what actually happens during linguistic communication, particularly **instructions and requests within hierarchical relationships**, such as corporate environments or client–worker dynamics.
 
-They act on:
-- meanings
-- interpretations
-- internalized expectations
+In the early stages of this research, I assumed that communication problems were primarily caused by **abstract request words** (e.g. “make it feel right,” “from a user perspective”).
 
-This repository explores how those processes can be:
-- observed
-- simplified
-- abstracted
-- and reused across domains.
+However, through iterative observation up to v0.3, I found that **abstract words themselves are not the root cause**.
 
----
+Instead, the effect of a word emerges from the interaction between:
 
-## Current state
+**word × domain × phase**
 
-- Language-first exploration
-- Minimal templates
-- No formal implementation yet
+Here, *domain* refers to contexts such as product development, meetings, video production, or writing.
 
-This is intentional.
+*Phase* refers to stages such as planning, design, implementation, or adjustment.
 
-Code comes **after** structure stabilizes.
+I also realized that **explicit requests**—often assumed to be safer or clearer—produce their own distinct problems.
 
----
+In other words, the impact of a request is not inherent to whether it is abstract or explicit, but depends on how it interacts with domain and phase.
 
-## Background
+This project does not attempt to resolve these problems directly.
 
-These experiments are informed by:
-- 20 years of visual decision-making practice
-- cinematography and visual direction
-- editing and structural thinking
-- recent exploration of AI as a judgment amplifier, not a replacement
+Instead, it visualizes **where judgment breaks down**, **who is forced to judge**, and **what kind of next action is realistically available**—such as continuing to ask questions, proposing a hypothesis, or stopping observation altogether.
 
-This is **not** a cultural critique.
-This is **not** philosophy for explanation.
+On the other hand, problems caused by external constraints—such as **budget, time, or organizational power structures**—are treated as **structural preconditions**, not communication failures.
 
-It is a working surface for judgment.
+These fall outside the scope of this UI and are intentionally not “solved” here.
 
----
+## What this is not
 
-## Status
+- Not a tool to resolve vague requests
+- Not a UX best-practice framework
+- Not a decision automation system
 
-Early stage / work in progress.
+## Current status
 
-Expect:
-- rewrites
-- deletions
-- structural changes
+- Prototype v0.3
+- Observational / exploratory
+- UI sketches and structure in progress
 
-That instability is part of the method.
+## Project Materials
 
----
+This repository also contains supplementary materials:
 
-## License
-
-Undecided.
+- `note/` – Personal notes and case observations
+- `template/` – Templates used for judgment extraction
