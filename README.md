@@ -38,6 +38,8 @@ These fall outside the scope of this UI and are intentionally not “solved” h
 <p align="center">
 <img src="assets/judgment-structure-v1.png" width="720">
 </p>
+Vertical axis indicates whether judgment failures are UI-addressable.
+Horizontal axis indicates whether judgment is resolved or unresolved.
 
 ## Judgment Types (v1)
 
