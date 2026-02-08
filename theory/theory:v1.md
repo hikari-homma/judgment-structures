@@ -1,0 +1,198 @@
+# Judgment Structure — Theory v1  
+Structural patterns of judgment breakdown
+
+---
+
+## Overview
+
+Judgment Structure is a long-term personal research project exploring  
+**when judgment becomes possible, impossible, or silently deferred**  
+in linguistic communication.
+
+This work does **not** attempt to fix ambiguous requests.
+
+Instead, it observes **where judgment breaks**, **who is forced to judge**,  
+and **what kind of next action is realistically available**  
+within hierarchical relationships such as corporate environments  
+or client–worker dynamics.
+
+---
+
+## Motivation
+
+In the early stages of this research, I assumed that communication problems  
+were primarily caused by **abstract request words**  
+(e.g. “make it feel right”, “from a user perspective”).
+
+However, through iterative observation up to v0.3,  
+I found that **abstract words themselves are not the root cause**.
+
+Instead, the effect of a request emerges from the interaction between:
+
+**word × domain × phase**
+
+- **Domain**: product development, meetings, video production, writing, etc.  
+- **Phase**: planning, design, implementation, adjustment.
+
+I also observed that **explicit requests**, often assumed to be safer,  
+produce their own distinct failures.
+
+In short, the impact of a request is not inherent to its clarity or vagueness,  
+but depends on how it interacts with domain and phase.
+
+---
+
+## Visual Overview
+
+An experimental UI diagram was created to map recurring judgment patterns.
+
+- **Vertical axis**: whether judgment failure is UI-addressable  
+- **Horizontal axis**: whether judgment is resolved or unresolved
+
+*(See diagram in repository assets.)*
+
+---
+
+## Judgment Types (v1)
+
+| Type | Name | State | UI Rescue |
+|------|------|-------|-----------|
+| A | Reference Missing | Judgment cannot be formed | Yes |
+| B | Reference-Resolved | Judgment possible with references | Yes |
+| C | Immediate Comprehension | Judgment formed immediately | Not required |
+| D | Structural Mismatch | Judgment blocked by constraints | No |
+| E | Authority Override | Judgment overridden by power | No |
+| F | Explanation Avoidance | Judgment exists, explanation withheld | No |
+| G | Surface Compliance | Pseudo-resolved judgment | Partial |
+
+---
+
+## A｜Reference Missing
+
+**State**  
+Judgment cannot be formed because no reference, comparison axis,  
+or evaluation criteria exist.
+
+**Description**  
+The request may sound abstract, but the core issue is not vagueness itself.  
+Without any reference point, judgment has nothing to anchor to  
+and stalls completely.
+
+**UI Rescue**  
+**Yes** — UI can surface missing references and prompt comparison axes.
+
+---
+
+## B｜Reference-Resolved
+
+**State**  
+Judgment can be formed because concrete references or examples are provided.
+
+**Description**  
+Although the request itself may remain abstract,  
+the presence of references activates judgment.  
+Comparison becomes possible, reducing cognitive load.
+
+**UI Rescue**  
+**Yes** — UI can organize references and support structured comparison.
+
+---
+
+## C｜Immediate Comprehension
+
+**State**  
+Judgment is formed immediately from the input alone.
+
+**Description**  
+The word triggers internal references within the receiver.  
+No additional clarification or comparison is required.
+
+**UI Rescue**  
+**No (Not required)** — Judgment is already stable.
+
+---
+
+## D｜Structural Mismatch
+
+**State**  
+Judgment cannot be formed due to structural constraints  
+rather than linguistic ambiguity.
+
+**Description**  
+The intent is clear, but constraints such as budget, time,  
+or the nature of the task itself prevent judgment from being actionable.
+
+**UI Rescue**  
+**No** — Constraints exist outside the UI’s scope.
+
+---
+
+## E｜Authority Override
+
+**State**  
+Judgment is formed but overridden by authority or hierarchy.
+
+**Description**  
+Even when a better judgment is possible,  
+power relationships force compliance and suppress evaluation.
+
+**UI Rescue**  
+**No** — This is a governance and power issue.
+
+---
+
+## F｜Explanation Avoidance
+
+**State**  
+Judgment exists but its reasoning is intentionally withheld.
+
+**Description**  
+Explanation is avoided because it is expected to fail,  
+cause conflict, or incur emotional cost.
+
+**UI Rescue**  
+**No** — Rooted in trust, emotion, or relational breakdown.
+
+---
+
+## G｜Surface Compliance
+
+**State**  
+Judgment appears resolved but is only superficially addressed  
+(*pseudo-resolved*).
+
+**Description**  
+The actor avoids taking ownership of judgment  
+and responds only to pass the situation.
+
+**UI Rescue**  
+**Partial** — UI can clarify roles and responsibility,  
+but cannot enforce ownership.
+
+---
+
+## What this theory does not attempt
+
+- Not a tool to resolve vague requests  
+- Not a UX best-practice framework  
+- Not a decision automation system  
+
+---
+
+## Status
+
+- **Judgment Structure — V1 (Theory)**
+- Observational / exploratory
+- Structural model of judgment types established
+- UI sketches and interaction design in progress
+
+---
+
+## Next
+
+- **Theory v2** will focus on meaning formation  
+  using a model such as:  
+  **M = f(Speaker, Receiver, Context)**
+
+This theory explains *why* certain judgment failures  
+are structurally impossible to resolve via UI.

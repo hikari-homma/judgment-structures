@@ -1,5 +1,5 @@
-# Reasoning Behind Judgment Structure
-### Sub-structural notes on meaning formation and decision failure
+# Judgment Structure — Theory v2
+Sub-structural notes on meaning formation and decision failure
 
 ---
 
