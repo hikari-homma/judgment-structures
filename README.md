@@ -1,160 +1,45 @@
 # Judgment Structure
+**A framework to analyze where human judgment fails — and why UI cannot always fix it.**
 
-Experimental UI for decision visibility.
+This project is a structural exploration of how meaning is formed and why decisions stall in professional environments (Film, engineering, UI/UX, and beyond).
 
-## What this is
-This is a long-term personal research project.
+---
 
-Judgment Structure is an experimental UI that visualizes **when judgment becomes possible, impossible, or silently deferred**—rather than attempting to “fix” ambiguous requests.
+## 📂 Project Evolution
 
-Its purpose is to observe what actually happens during linguistic communication, particularly **instructions and requests within hierarchical relationships**, such as corporate environments or client–worker dynamics.
+The project is structured into two theoretical phases to show the evolution from observation to mechanics.
 
-In the early stages of this research, I assumed that communication problems were primarily caused by **abstract request words** (e.g. “make it feel right,” “from a user perspective”).
+### [Phase 1: Theory V1 — Observation (Phenomena)](./theory/v1.md)
+**Focus:** Observing how judgment breaks, stalls, or defers in practice.
+Originally, I assumed judgment failed because requests were vague. I observed triggers like *"Make it feel right"* or *"Make it simpler"* to see where judgment stopped or was deferred.
 
-However, through iterative observation up to v0.3, I found that **abstract words themselves are not the root cause**.
+### [Phase 2: Theory V2 — Foundation (Mechanics)](./theory/v2.md)
+**Focus:** The SRCM Model — Meaning Formation under Constraint.
+In this phase, the core question shifted: **“Where is meaning actually formed?”**
+I introduce the formula:
+$$M = f(S, R, C)$$
+Where Meaning ($M$) is not transmitted, but generated through the interaction of the Speaker ($S$), the Receiver ($R$), and structural Constraints ($C$).
 
-Instead, the effect of a word emerges from the interaction between:
+---
 
-**word × domain × phase**
+## 📂 Repository Guide
 
-Here, *domain* refers to contexts such as product development, meetings, video production, or writing.
+- **[/theory](./theory/)**: The evolution of the logic. Start with [v1.md] for observed patterns, then proceed to [v2.md] for the SRCM model.
+- **[/cases](./cases/)**: (Work in Progress) Real-world evidence and logs (C-008 to C-024) mapped to the theory.
+- **[/templates](./templates/)**: Experimental UI designs for visualizing judgment flows.
 
-*Phase* refers to stages such as planning, design, implementation, or adjustment.
+---
 
-I also realized that **explicit requests**—often assumed to be safer or clearer—produce their own distinct problems.
+## 🎯 Why This Project Exists
 
-In other words, the impact of a request is not inherent to whether it is abstract or explicit, but depends on how it interacts with domain and phase.
+1. **To prevent misattribution:** Stopping the "it's just a communication problem" excuse.
+2. **To define the boundary of UI:** Clarifying where design can help (S/R Alignment) and where it is structurally impossible (C Dominance).
+3. **To observe without optimizing:** We map the "structure" of failure before proposing "solutions."
 
-This project does not attempt to resolve these problems directly.
+---
 
-Instead, it visualizes **where judgment breaks down**, **who is forced to judge**, and **what kind of next action is realistically available**—such as continuing to ask questions, proposing a hypothesis, or stopping observation altogether.
+## Stance
+Still observing. Still not optimizing.
 
-On the other hand, problems caused by external constraints—such as **budget, time, or organizational power structures**—are treated as **structural preconditions**, not communication failures.
-
-These fall outside the scope of this UI and are intentionally not “solved” here.
-
-
-### **An Experimental UI for Visualizing Where Judgment Breaks**
-
-<p align="center">
-<img src="assets/judgment-structure-v1.png" width="720">
-</p>
-Vertical axis indicates whether judgment failures are UI-addressable.
-Horizontal axis indicates whether judgment is resolved or unresolved.
-
-## Judgment Types (v1)
-
-| Type | Name | State | UI Rescue |
-|------|------|-------|-----------|
-| A | Reference Missing | No reference or comparison axis; judgment cannot be formed | Yes |
-| B | Reference-Resolved | Judgment is possible with references, but comparison needs structuring | Yes |
-| C | Immediate Comprehension | Judgment is formed directly from the input | Not required |
-| D | Structural Mismatch | Structural constraints prevent judgment from being formed | No |
-| E | Authority Override | Judgment is overridden by authority or hierarchy | No |
-| F | Explanation Avoidance | Judgment exists but explanation is avoided or suppressed | No |
-| G | Surface Compliance | Superficial compliance without owning judgment | Partial |
-
-### **A｜Reference Missing**
-
-**State**  
-Judgment cannot be formed because no reference, comparison axis, or evaluation criteria exist.
-
-**Description**  
-The request may sound abstract, but the core issue is not vagueness itself.  
-Without any reference point, judgment has nothing to anchor to and stalls completely.
-
-**UI Rescue**  
-**Yes** — UI can surface missing references and prompt comparison axes.
-
-### **B｜Reference-Resolved**
-
-**State**  
-Judgment can be formed because concrete references or examples are provided.
-
-**Description**  
-Although the request itself may still be abstract, the presence of references activates judgment.  
-Comparison becomes possible, reducing cognitive load and enabling decision-making.
-
-**UI Rescue**  
-**Yes** — UI can organize references and support structured comparison.
-
-### **C｜Immediate Comprehension**
-
-**State**  
-Judgment is formed immediately from the input alone.
-
-**Description**  
-The request contains sufficient clarity and context.  
-No additional references, clarification, or comparison are required.
-
-**UI Rescue**  
-**No (Not required)** — Judgment is already stable.
-
-### **D｜Structural Mismatch**
-
-**State**  
-Judgment cannot be formed due to structural constraints rather than linguistic ambiguity.
-
-**Description**  
-The intent is understandable, but constraints such as budget, time, or the nature of the task itself  
-prevent judgment from being actionable.
-
-**UI Rescue**  
-**No** — Constraints exist outside the UI’s scope.
-
-### **E｜Authority Override**
-
-**State**  
-Judgment is formed but overridden by authority or power relationships.
-
-**Description**  
-Even when a better judgment is possible, hierarchical pressure or explicit commands  
-force compliance, suppressing independent evaluation.
-
-**UI Rescue**  
-**No** — This is a power and governance issue.
-
-### **F｜Explanation Avoidance**
-
-**State**  
-Judgment exists but its reasoning is intentionally withheld.
-
-**Description**  
-Explanation is avoided because it is expected to fail, cause conflict, or be emotionally costly.  
-The decision proceeds without shared understanding.
-
-**UI Rescue**  
-**No** — Rooted in trust, emotion, or relational breakdown.
-
-### **G｜Surface Compliance**
-
-**State**  
-Judgment appears resolved but is only superficially addressed (*pseudo-resolved*).
-
-**Description**  
-The actor avoids taking ownership of judgment and responds in a way that merely passes the situation.  
-The underlying decision remains unexamined.
-
-**UI Rescue**  
-**Partial** — UI can help clarify roles and responsibility, but cannot enforce ownership.
-
-
-## What this is not
-
-- Not a tool to resolve vague requests
-- Not a UX best-practice framework
-- Not a decision automation system
-
-## Current status
-
-- Judgment Structure — V1 (Prototype)
-- Observational / exploratory
-- Structural model of judgment types established
-- UI sketches and structure in progress
-
-## Project Materials
-
-This repository also contains supplementary materials:
-
-- `note/` – Personal notes and case observations
-- `template/` – Templates used for judgment extraction
+---
+*Created by Hikari Homma. Drawing from 20 years of experience in visual decision-making and cinematography.*
