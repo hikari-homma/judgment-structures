@@ -50,7 +50,7 @@ An experimental UI diagram was created to map recurring judgment patterns.
 - **Horizontal axis**: whether judgment is resolved or unresolved
 
 <p align="center">
-<img src="assets/judgment-structure-v1.png" width="720">
+  <img src="../assets/judgment-structure-v1.png" width="720">
 </p>
 
 ---
