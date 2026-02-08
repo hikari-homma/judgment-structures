@@ -49,7 +49,9 @@ An experimental UI diagram was created to map recurring judgment patterns.
 - **Vertical axis**: whether judgment failure is UI-addressable  
 - **Horizontal axis**: whether judgment is resolved or unresolved
 
-*(See diagram in repository assets.)*
+<p align="center">
+<img src="assets/judgment-structure-v1.png" width="720">
+</p>
 
 ---
 
